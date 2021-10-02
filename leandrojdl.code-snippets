@@ -1,0 +1,39 @@
+{
+	"Insert quote char": {
+	  "prefix": ">>",
+	  "body": "» "
+	},
+	"Check mark emoji code": {
+	  "prefix": ":white_check_mark",
+	  "body": ":white_check_mark: "
+	},
+	"Ballot check mark emoji code": {
+	  "prefix": ":ballot_box_with_check",
+	  "body": ":ballot_box_with_check: "
+	},
+	"[Latex] \\infer": {
+		"prefix": "infer",
+		"body": "\\infer[]\n\t{}\n\t{}",
+		"scope": "latex"
+	},
+	"[Latex] \\begin{align*}": {
+		"prefix": "align",
+		"body": "\\begin{align*}\n\t&\n\\end{align*}",
+		"scope": "latex"
+	},
+	"[Latex] \\begin{enumerate}": {
+		"prefix": "enumerate",
+		"body": "\\begin{enumerate}\n\t\\item \n\\end{enumerate}",
+		"scope": "latex"
+	},
+	"[Latex] \\rightarrow": {
+		"prefix": "arrow",
+		"body": "\\rightarrow",
+		"scope": "latex"
+	},
+	"[Latex] \\Rightarrow": {
+		"prefix": "then",
+		"body": "\\Rightarrow",
+		"scope": "latex"
+	},
+  }
