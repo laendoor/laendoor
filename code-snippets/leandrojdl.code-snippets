@@ -1,0 +1,14 @@
+{
+  "Insert quote char": {
+    "prefix": ">>",
+    "body": "» "
+  },
+  "Check mark emoji code": {
+    "prefix": ":white_check_mark",
+    "body": ":white_check_mark: "
+  },
+  "Ballot check mark emoji code": {
+    "prefix": ":ballot_box_with_check",
+    "body": ":ballot_box_with_check: "
+  },
+}

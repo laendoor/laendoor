@@ -1,0 +1,70 @@
+{
+  "\\infer": {
+    "prefix": "infer",
+    "body": "\\infer[]\n\t{$1}\n\t{$2}"
+  },
+  "[Latex] ax_v": {
+    "prefix": "axv",
+    "body": "\\infer[ax_v]{$1}{}"
+  },
+  "[Latex] ax_c": {
+    "prefix": "axc",
+    "body": "\\infer[ax_c]{$1}{}"
+  },
+  "[Latex] \\begin{align*}": {
+    "prefix": "align",
+    "body": "\\begin{align*}\n\t& $1\n\\end{align*}"
+  },
+  "[Latex] \\begin{equation*}": {
+    "prefix": "equation",
+    "body": "\\begin{equation*}\n\t$1\n\\end{equation*}"
+  },
+  "[Latex] \\begin{enumerate}": {
+    "prefix": "enumerate",
+    "body": "\\begin{enumerate}\n\t\\item $1\n\\end{enumerate}"
+  },
+  "[Latex] \\begin{itemize}": {
+    "prefix": "itemize",
+    "body": "\\begin{itemize}\n\t\\item $1\n\\end{itemize}"
+  },
+  "[Latex] \\rightarrow": {
+    "prefix": "arrow",
+    "body": "\\rightarrow"
+  },
+  "[Latex] \\Rightarrow": {
+    "prefix": ["then", "flecha"],
+    "body": "\\Rightarrow"
+  },
+  "[Latex] Context (\\Gamma \\vdash)": {
+    "prefix": ["context"],
+    "body": "\\Gamma \\vdash "
+  },
+  "[Latex] if zero": {
+    "prefix": "ifz",
+    "body": "\\ifz z t e"
+  },
+  "[Latex] let": {
+    "prefix": "let",
+    "body": "\\let x u t"
+  },
+  "[Latex] \\mathsf{let}": {
+    "prefix": "sflet",
+    "body": "\\mathsf{let}"
+  },
+  "[Latex] \\mathsf{fix}": {
+    "prefix": "sffix",
+    "body": "\\mathsf{fix}"
+  },
+  "[Latex] \\mathsf{ifz}": {
+    "prefix": "sfifz",
+    "body": "\\mathsf{ifz}"
+  },
+  "[Latex] \\nat \\Rightarrow \\nat": {
+    "prefix": "natin",
+    "body": "\\nat \\Rightarrow \\nat"
+  },
+  "[Latex] \\Gamma": {
+    "prefix": "gamma",
+    "body": "\\Gamma"
+  }
+}
